@@ -1,8 +1,41 @@
 
 /* H1 tags */
+h1, h2 {
+    box-shadow: 0px 5px 10px darkslateblue;
+}
 h1 { 
     background-color: rgb(50, 28, 70);
     color: white;
+    border-radius: 10%;
+    width: fit-content;
     }
+h2 {
+    background-color:lightskyblue;
+    color:darkblue;
+    width:fit-content;
+    border-radius: 10px;
+}
 
+p {
+    color:darkslateblue;
+}
+li {
+    color:darkcyan;
+}
 
+img {
+    border-radius: 100%;
+    width: 200px;
+    margin: auto;
+    box-shadow: 0px 10px 10px;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.undertitle {
+    font-style:italic;
+    font-weight: 600;
+    font-size:large;
+}
